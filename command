@@ -1,1 +1,3 @@
-touch /tmp/persist-`date +%s`
+export TS=`date +%s`
+touch /tmp/persist-$TS
+echo "created persist-$TS" 
